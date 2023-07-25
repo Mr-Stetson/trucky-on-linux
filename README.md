@@ -4,9 +4,9 @@ I installed Overwolf and Trucky for both games prefixes separately but you could
 ## tl:dr for advanced users
 You need dotnet35, dotnet48, vcrun2022, install Overwolf with [Overwolf Setup installer](https://content.overwolf.com/downloads/setup/latest/regular.html) and install Trucky from Overwolf store.
 ## Setup
-1. Download and install [SteamTinkerLaunch (STL)](https://github.com/sonic2kk/steamtinkerlaunch) (I use [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) to hande STL and custom Proton versions)
-2. Set the game to run STL as compatibily leayer
-	- Right-click the game from library -> Properties -> Compatibilty -> Check the box and select STL
+1. Download and install [SteamTinkerLaunch (STL)](https://github.com/sonic2kk/steamtinkerlaunch) (I use [ProtonUp-Qt](https://github.com/DavidoTek/ProtonUp-Qt) to handle STL and custom Proton versions)
+2. Set the game to run STL as compatibility layer
+	- Right-click the game from library -> Properties -> Compatibility -> Check the box and select STL
 3. Run the game and go to **STL Main Menu**. You have 2 seconds to press the button before the game launches, if you miss it just close the game and try again.
 4. From STL click "**Game Menu**"
 	- Under "**Proton Settings**" set "**Proton version**" to what proton version you want to use.
@@ -34,7 +34,7 @@ You need dotnet35, dotnet48, vcrun2022, install Overwolf with [Overwolf Setup in
 		- Tick "**Use custom command**"
 		- "**Custom command**": Browse to "**WINEPREFIX**" path and further `drive_c/"Program Files (x86)"/Overwolf/OverwolfLauncher.exe`
 		- Tick "**Fork custom command**"
-		- "**Wait for custom command**": Set to at least 1, I set to 10 so Overwolf launches fully before the game
+		- "**Wait for custom command**": Set to at least 1, I set to 10 so Overwolf launches fully before the game launches
 	- Click "**Save**" and "**Main Menu**"
 7. From STL click "**Exit**"
 	- If Steam says the game is still running after couple seconds Overwolf is hanging and you can just click Stop from Steam
