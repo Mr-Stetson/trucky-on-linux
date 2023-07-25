@@ -18,7 +18,7 @@ You need dotnet35, dotnet48, vcrun2022, install Overwolf with [Overwolf Setup in
 	- Tick "**dotnet35**" , "**dotnet48**" and "**vcrun2022**" and click "**Select**" - the window closes
 	- Click "**Install**" and wait for a notification for winetricks installation has finished (5-10 minutes depending on PC)
 	- After it has finished check "**Winetricks**" again and check that all pakcages under "**Currently Selected Packages**" has "**(already installed)**" suffix
-		- If they don't check [Troubleshooting](README.md#Troubleshooting)
+		- If they don't check [Troubleshooting](https://github.com/Mr-Stetson/trucky-on-linux#if-winetricks-doesnt-install-packages)
 2. Download [Overwolf Setup installer](https://content.overwolf.com/downloads/setup/latest/regular.html). The normal installer doesn't work.
 3. From STL select "**One time run**"
 	- "**One time command**": Browse to `OverwolfSetup.exe`
