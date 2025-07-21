@@ -1,3 +1,5 @@
+# Trucky has a native Linux install now
+
 # How to install Trucky for ETS2 or ATS on Linux
 This is my first guide so if you have any suggestions for improvements let me know.
 I installed Overwolf and Trucky for both games prefixes separately but you could use symlink to make both games use the same prefix.
